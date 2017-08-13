@@ -1,0 +1,12 @@
+[submodule "AMuSt-libdash"]
+        path = AMuSt-libdash
+        url = https://github.com/ChristianKreuzberger/AMuSt-libdash
+[submodule "ns-3"]
+        path = ns-3
+        url = https://github.com/named-data-ndnSIM/ns-3-dev
+[submodule "itec-ndn"]
+        path = itec-ndn
+        url = https://github.com/danposch/itec-ndn
+[submodule "pybindgen"]
+        path = pybindgen
+        url = https://github.com/named-data-ndnSIM/pybindgen
