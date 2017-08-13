@@ -7,6 +7,9 @@
 [submodule "itec-ndn"]
         path = itec-ndn
         url = https://github.com/danposch/itec-ndn
+[submodule "ndnSIM"]
+        path = ns-3/src/ndnSIM
+        url = https://github.com/ChristianKreuzberger/AMuSt-ndnSIM
 [submodule "pybindgen"]
         path = pybindgen
         url = https://github.com/named-data-ndnSIM/pybindgen
