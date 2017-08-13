@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="urn:mpeg:DASH:schema:MPD:2011"
+         xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011"
+         profiles="urn:mpeg:dash:profile:isoff-main:2011"
+         type="static"
+         mediaPresentationDuration="PT596.458S"
+         minBufferTime="PT2.0S">
+              <BaseURL>http://itec/</BaseURL>
+              <Period start="PT0S">
+    
+     <AdaptationSet bitstreamSwitching="true" mimeType="video/264" startWithSAP="1" maxWidth="640" maxHeight="360" maxFrameRate="24" par="16:9">
+                    <SegmentBase>
+                        <Initialization sourceURL="BBB-I-360p.init.svc"/>
+                    </SegmentBase>
+    
+     <Representation id="0" codecs="AVC" mimeType="video/264"
+                                width="640" height="360" frameRate="24" sar="1:1" bandwidth="648657">
+                       <SegmentList duration="48" timescale="24">
+                     <SegmentURL media="BBB-I-360p.seg0-L0.svc"/>
+                         <SegmentURL media="BBB-I-360p.seg1-L0.svc"/>
+                         <SegmentURL media="BBB-I-360p.seg2-L0.svc"/>
+                         <SegmentURL media="BBB-I-360p.seg3-L0.svc"/>
+                         <SegmentURL media="BBB-I-360p.seg4-L0.svc"/>
+                         <SegmentURL media="BBB-I-360p.seg5-L0.svc"/>
+                         <SegmentURL media="BBB-I-360p.seg6-L0.svc"/>
+                         <SegmentURL media="BBB-I-360p.seg7-L0.svc"/>
+                         <SegmentURL media="BBB-I-360p.seg8-L0.svc"/>
+                         <SegmentURL media="BBB-I-360p.seg9-L0.svc"/>
+                         <SegmentURL media="BBB-I-360p.seg10-L0.svc"/>    
+                       </SegmentList>
+                    </Representation>
+
+<Representation id="1" dependencyId="0" codecs="SVC" mimeType="video/264"
+                                width="640" height="360" frameRate="24" sar="1:1" bandwidth="994713">
+                       <SegmentList duration="48" timescale="24">
+                         <SegmentURL media="BBB-I-360p.seg0-L1.svc"/>
+                         <SegmentURL media="BBB-I-360p.seg1-L1.svc"/>
+                         <SegmentURL media="BBB-I-360p.seg2-L1.svc"/>
+                         <SegmentURL media="BBB-I-360p.seg3-L1.svc"/>
+                         <SegmentURL media="BBB-I-360p.seg4-L1.svc"/>
+                         <SegmentURL media="BBB-I-360p.seg5-L1.svc"/>
+                         <SegmentURL media="BBB-I-360p.seg6-L1.svc"/>
+                         <SegmentURL media="BBB-I-360p.seg7-L1.svc"/>
+                         <SegmentURL media="BBB-I-360p.seg8-L1.svc"/>
+                         <SegmentURL media="BBB-I-360p.seg9-L1.svc"/>
+                         <SegmentURL media="BBB-I-360p.seg10-L1.svc"/>
+              </SegmentList>
+                    </Representation>
+        
+     </AdaptationSet>
+        </Period>
+    </MPD>
+    
